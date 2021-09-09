@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+main {
+    background-color: #b07cf7;
+    height: 864px;
+    width: 1500px;
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+        
+}
+h2 {
+    color: white;
+    font-size: 90pt;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    margin-bottom: -10Px;
+ 
+}
+.subtitle {
+    color: white;
+    font-size: 17pt;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+img{ 
+    filter: drop-shadow(2px 2px 3px black);
+    filter: brightness(75%)
+}
+.first {
+    position: absolute;
+    top: 510px;
+    left: 160px;
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.second {
+    position: absolute;
+    top: 510px;
+    left: 555px;
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.third {
+    position: absolute;
+    top: 510px;
+    left: 925px;
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.imagetext1 {
+    position: absolute;
+    top: 580px;
+    left: 160px;
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+.imagetext2 {
+    position: absolute;
+    top: 580px;
+    left: 555px;
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+.imagetext3 {
+    position: absolute;
+    top: 580px;
+    left: 925px;
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+.img1 {
+    position: absolute;
+    top: 320px;
+    left: 170px;
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.img1:hover {
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.15s linear;
+  display: inline-block;
+ }
+.img2 {
+    position: absolute;
+    top: 320px;
+    left: 560px;
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.img3 {
+    position: absolute;
+    top: 320px;
+    left: 930px;
+    width: 100%;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.flex-container-2 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+button {
+    color: white;
+    background: #f72b3b;
+    height: 5em;
+    width: 12em;
+    margin: 20px;
+    border: none;
+    filter: drop-shadow(2px 2px 3px black);
+
+}
+
